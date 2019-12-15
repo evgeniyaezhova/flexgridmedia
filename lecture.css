@@ -1,0 +1,86 @@
+.one {
+border: 2px solid red;
+background-color: #fff4e6;
+width: 600px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.one > div {
+    border: 2px solid orange;
+    background-color: lightgreen;
+    flex: 1 1 150px;
+}
+
+#one1 {
+    background-color: yellow;
+}
+
+#two2 {
+    background-color: green;
+}
+
+
+.two {
+    border: 2px solid blue;
+    background-color: #b6e4f7;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.two > div {
+    border: 2px solid green;
+    background-color: pink;
+   
+}
+
+.three {
+border: 2px solid red;
+background-color: #fff4e6;
+width: 600px;
+display: flex;
+align-items: flex-end;
+min-height: 200px;
+}
+
+.three > div {
+    border: 2px solid orange;
+    background-color: lightgreen;
+    flex: 1 1 150px;
+}
+
+.box1 {
+    align-self: stretch;
+    /* min-width: 50% */
+}
+
+.box2{
+    align-self: flex-start;
+}
+
+.four {
+    border: 2px solid blue;
+    background-color: #b6e4f7;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    align-items: end
+}
+
+.four > div {
+    border: 2px solid green;
+    background-color: pink;
+   
+}
+
+.box11 {
+    align-self: stretch
+}
+
+.box22 {
+    align-self: start
+}
+
+
